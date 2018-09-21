@@ -1,0 +1,20 @@
+body{
+    background-color: #D3D9CB;
+
+}
+.software1{
+    text-align: center;
+    width: 50%;
+    margin-top: 2%;
+
+    float: left;
+}
+
+.software2{
+    text-align: center;
+    margin-left: 10%;
+    width: 30%;
+    margin-top: 2%;
+
+    float: left;
+}

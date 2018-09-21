@@ -1,0 +1,47 @@
+body{
+
+    background-color: #F6F6F6;
+}
+.clear{
+    clear: both;
+}
+#healthCave{
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+}
+#healthCave #title{
+    color: black;
+    text-align: center;
+}
+#emergency{
+    width: 20%;
+    margin-left:10%;
+    background-color: #F6F6F6;
+
+    float: left;
+}
+#emergency img{
+
+    float: left;
+}
+
+#emergency span{
+    width: 30%;
+}
+
+#hospital{
+    width: 100%;
+    margin-top: 5%;
+    float: left;
+
+    margin-left:15%;
+}
+#hospital .hospital0{
+    float: left;
+    margin-left: 15%;
+
+}
+#hospital .hospital0 a{
+    color: #262626;
+}

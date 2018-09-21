@@ -1,0 +1,57 @@
+body{
+    background-color: #D3D9CB;
+}
+
+form{
+    margin-top: 37%;
+}
+
+#order1{
+    text-align: center;
+    width: 30%;
+    margin-top: 1%;
+    background-image: url("../images/棋牌室.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+#order2{
+    text-align: center;
+    width: 30%;
+    margin-top: 1%;
+    background-image: url("../images/书法间.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+#order3{
+    text-align: center;
+    width: 30%;
+    margin-top: 1%;
+    background-image: url("../images/阅览室.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+#order4{
+    text-align: center;
+    width: 30%;
+    margin-top: 1%;
+    background-image: url("../images/健身房.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+#order5{
+    text-align: center;
+    width: 30%;
+    margin-top: 1%;
+    background-image: url("../images/舞房.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+#order6{
+    text-align: center;
+    width: 30%;
+    margin-top: 1%;
+    background-image: url("../images/戏曲间.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+

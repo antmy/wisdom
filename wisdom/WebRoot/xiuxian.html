@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/xiuxian.css"/>
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="order1">
+            <div>
+                <form>
+                    <input type="submit" value="预约" onclick="reserve()">
+                    <input type="button" value="离开" onclick="leave()">
+                    <input type="button" value="取消预约" onclick="cancel()">
+                </form>
+            </div>
+    </div>
+    <div id="order2">
+        <div>
+            <form>
+                <input type="submit" value="预约" onclick="reserve()">
+                <input type="button" value="离开" onclick="leave()">
+                <input type="button" value="取消预约" onclick="cancel()">
+            </form>
+        </div>
+    </div>
+    <div id="order3">
+        <div>
+            <form>
+                <input type="button" value="预约" onclick="reserve()">
+                <input type="button" value="离开" onclick="leave()">
+                <input type="button" value="取消预约" onclick="cancel()">
+            </form>
+        </div>
+    </div>
+    <div id="order4">
+        <div>
+            <form>
+                <input type="button" value="预约" onclick="reserve()">
+                <input type="button" value="离开" onclick="leave()">
+                <input type="button" value="取消预约" onclick="cancel()">
+            </form>
+        </div>
+    </div>
+    <div id="order5">
+        <div>
+            <form>
+                <input type="button" value="预约" onclick="reserve()">
+                <input type="button" value="离开" onclick="leave()">
+                <input type="button" value="取消预约" onclick="cancel()">
+            </form>
+        </div>
+    </div>
+    <div id="order6">
+        <div>
+            <form>
+                <input type="button" value="预约" onclick="reserve()">
+                <input type="button" value="离开" onclick="leave()">
+                <input type="button" value="取消预约" onclick="cancel()">
+            </form>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function reserve() {
+        alert('预约成功！离开时别忘了点一下离开呦~')
+    }
+    function leave() {
+        confirm("确定离开吗？")
+    }
+    function cancel() {
+        confirm("确定取消预约吗？")
+    }
+</script>
+</html>

@@ -1,0 +1,16 @@
+body{
+    background-color: #262626;
+}
+#about{
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#span1{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+#span2{
+    color: white;
+}

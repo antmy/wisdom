@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/zhiyuanzhe.css"/>
+    <title>志愿服务</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>请选择您想要进行的志愿服务方式</h3>
+                    <h3>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        并填写您的基本信息
+                    </h3>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    姓名：
+                </td>
+                <td>
+                    <input type="text" name="name" size="26"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    性别：
+                </td>
+                <td>
+                    <input type="radio" name="sex" value="male" >男
+                    <input type="radio" name="sex" value="female">女
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    联系方式：
+                </td>
+                <td>
+                    <input type="text" name="telephone" size="26"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    志愿服务：
+                </td>
+                <td>
+                    <select id="divide">
+                        <option value="Professional">专业人士</option>
+                        <option value="Wormheart">爱心人士</option>
+                    </select>
+                    <select id="area">
+                        <option>医生</option>
+                        <option>护理</option>
+                        <option>心理医生</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    备注：
+                </td>
+                <td>
+                    <textarea cols="20px" rows="4px">请输入备注信息</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="提交" onclick="alert('感谢您的参与')"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+<script type="text/javascript">
+    var select = document.getElementById("divide");
+    select.onchange = function () {
+        var optionValue = select.value;
+        switch (optionValue){
+            case "Professional":
+                var area = document.getElementById("area");
+                area.innerHTML = " <option>医生</option> <option>护理</option> <option>心理医生</option>";
+                break;
+            case "Wormheart":
+                var area = document.getElementById("area");
+                area.innerHTML = "<option>陪伴空巢老人</option><option>家政保洁</option>" +
+                    " <option>文体活动</option> <option>法律援助</option>";
+                break;
+            default:
+                alert("error");
+        }
+    }
+</script>
+</html>

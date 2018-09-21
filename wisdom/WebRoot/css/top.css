@@ -1,0 +1,35 @@
+/* 娓呴櫎娴姩寮婄 */
+.clear{
+    clear:both;
+}
+/* 鏁翠釜鑿滃崟鏍忚儗鏅鑹� */
+body{
+    background-color: #262626;
+
+}
+/* logo鏍峰紡 */
+#top .logo img{
+    height: 70%;
+    width: 20%;
+
+    margin-left:10%;
+    float: left;
+    margin-top: 1%;
+}
+/* 瀵艰埅鑿滃崟鏍忔牱寮� */
+#menu{
+    width: 50%;
+
+    float: left;
+    margin-left:10%;
+    margin-top: 4%;
+}
+#menu a{
+
+    color: white;
+    text-decoration: none;
+    margin-left:5%;
+}
+#menu a:hover{
+    color: #00B0F0;
+}

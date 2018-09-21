@@ -1,0 +1,20 @@
+body{
+    background-color: #D3D9CB;
+}
+#hardware_left{
+    width: 30%;
+    text-align: center;
+    margin-left: 15%;
+    float: left;
+}
+#hardware_right{
+    width: 30%;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 3%;
+    float: left;
+}
+#hardware_right span{
+    margin-top: 7%;
+    float: left;
+}

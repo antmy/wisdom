@@ -1,0 +1,21 @@
+body{
+    background-color: #262626;
+
+}
+#bottom{
+    text-align: center;
+}
+#bottom_left{
+
+    width: 35%;
+    float: left;
+    margin-left: 10%;
+}
+#bottom_right{
+
+    margin-right: 10%;
+    width: 35%;
+    float: right;
+    line-height: 24px;
+    color: white;
+}

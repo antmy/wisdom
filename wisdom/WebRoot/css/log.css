@@ -1,0 +1,17 @@
+body{
+    background-color: #262626;
+}
+#logo{
+    text-align: center;
+    margin-top: 5%;
+}
+#logo img{
+    width: 200px;
+    height: 100px;
+}
+form{
+    margin-top: 10px;
+}
+form a{
+    background-color: #ECECEC;
+}
