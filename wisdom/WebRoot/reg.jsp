@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="css/reg.css"/>
 <title>register</title>
+
 </head>
 <body>
 <h2>
@@ -27,7 +28,7 @@
                设置密码：
             </td>
             <td>
-                <input type="password" name="password">
+                <input type="password" name="password" id="txtpassword">
             </td>
         </tr>
         <tr>
@@ -141,6 +142,16 @@
         </tr>
     </table>
 </form>
+
+<script type="text/javascript">
+	function checkLength(){
+		var password=document.getElementById("txtpassword");
+		if(password.value.length<6){
+         alert("密码长度至少为六位！");
+    	}
+    	
+	}
+</script>
 
 </body>
 </html>

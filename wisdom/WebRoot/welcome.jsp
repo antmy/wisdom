@@ -25,5 +25,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body bgcolor="grey">
     	<font color="white">欢迎您： </font>
     	${u.username }
+    	<br>
+    	
+    	<font color="white">请点击 </font>
+    	<a href="index.html" target="_parent">这里</a>
+    	<font color="white">返回首页 </font>
   </body>
 </html>

@@ -9,8 +9,8 @@ body{
 }
 /* logo鏍峰紡 */
 #top .logo img{
-    height: 70%;
-    width: 20%;
+    height: 60%;
+    
 
     margin-left:10%;
     float: left;
@@ -21,7 +21,7 @@ body{
     width: 50%;
 
     float: left;
-    margin-left:10%;
+    margin-left:20%;
     margin-top: 4%;
 }
 #menu a{
